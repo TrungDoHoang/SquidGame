@@ -45,7 +45,7 @@ function delay(ms) {
 
 class Doll {
   constructor() {
-    loader.load("./models/army/scene.gltf", (gltf) => {
+    loader.load("/SquidGame/models/army/scene.gltf", (gltf) => {
       scene.add(gltf.scene);
       gltf.scene.scale.set(0.04, 0.04, 0.04);
       gltf.scene.position.set(0, -1, 0);
